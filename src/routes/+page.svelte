@@ -1,3 +1,15 @@
+<section class="card">
+</section>
+section.card {
+    /* display: flex; */
+    height: 500px;
+    width: 250px;
+    background: darkblue;
+    color: antiquewhite;
+    justify-self: center;
+    padding: 2em 4.5em 4.5em 4.5em;
+    margin: 0 5em 0 5em;
+    gap: 1em; 
 section {   
     
     position: relative;
