@@ -38,3 +38,11 @@ section {
         right:-7.5em;
     }
 }
+<script>
+
+	import { onMount } from 'svelte';
+
+	const { data } = $props();
+	const persons = data.persons;
+
+</script>
