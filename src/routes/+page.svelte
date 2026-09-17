@@ -22,6 +22,15 @@
         <img class="right-mid" src="src/lib/assets/fairys.png" width="100" alt="">
         <img class="right-bottom" src="src/lib/assets/fire.png" width="100" height="100" alt="">
     </section>
+    <section class="sideways-title">
+        <h3 class="top-left">
+            hoi hallo
+        </h3>
+         <!-- <h3 class="bottom-right">
+            welkom
+         </h3> -->
+        <!-- <p>welkom</p> -->
+    </section>
 </section>
 section.card {
     /* display: flex; */
