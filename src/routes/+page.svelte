@@ -32,6 +32,32 @@
         <!-- <p>welkom</p> -->
     </section>
 </section>
+
+
+
+
+<style>
+
+/* applies to <body> */
+:global(body) {
+    margin: 0;
+    width: 100vw;
+    justify-content: center;
+    background: lightgreen;
+    background-image: url("src/lib/assets/background1.jpg");
+
+    h2 {
+        /* font-family:src/lib/assets/ManufacturingConsent-Regular.ttf; */
+        justify-self: center;
+        font-size: 2.5em;
+        background: darkblue;
+        margin: 0 0 0.5em 0;
+        padding: 0.5em 1em 0.5em 1em;
+        background-image: url("src/lib/assets/banner1.jpg");
+        object-fit: fill;
+    }
+}
+
 section.card {
     /* display: flex; */
     height: 500px;
