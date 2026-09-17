@@ -1,4 +1,15 @@
 <section class="card">
+    <section>
+        <img class="left-top" src="src/lib/assets/chinesetext1.png" width="100" alt="">
+        <img class="left-mid" src="src/lib/assets/chinesetext2.png" width="100" alt="">
+        <img class="left-bottom" src="src/lib/assets/chinesetext3.png" width="100" alt="">
+    </section>
+
+    <section>
+        <img class="right-top" src="src/lib/assets/4evrluv.png" width="100" alt="">
+        <img class="right-mid" src="src/lib/assets/fairys.png" width="100" alt="">
+        <img class="right-bottom" src="src/lib/assets/fire.png" width="100" height="100" alt="">
+    </section>
 </section>
 section.card {
     /* display: flex; */
