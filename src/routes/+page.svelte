@@ -22,6 +22,16 @@
         <img class="right-mid" src="src/lib/assets/fairys.png" width="100" alt="">
         <img class="right-bottom" src="src/lib/assets/fire.png" width="100" height="100" alt="">
     </section>
+
+
+
+    <p>
+        IK BEN {persons.name} IK STUDEER FDND FRONTEND DEVELOPING
+    </p>
+    <p>
+
+    </p>
+
     <section class="sideways-title">
         <h3 class="top-left">
             hoi hallo
