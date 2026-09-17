@@ -2,6 +2,15 @@
     <h2>
         TOASTERBATH0758
     </h2>
+
+
+
+    <section class="profile-photo-wrapper">
+    <img hidden class="profile-photo" src="src/lib/assets/mememefish-dithered-black-white.png" width="200" alt="">
+        <img class="profile-photo" src="src/lib/assets/mememefish-dithered-green.png" width="200" alt="">
+        <img class="img-border" src="src/lib/assets/imgborder2.png" height="300" alt="">
+    </section>
+
     <section>
         <img class="left-top" src="src/lib/assets/chinesetext1.png" width="100" alt="">
         <img class="left-mid" src="src/lib/assets/chinesetext2.png" width="100" alt="">
@@ -24,6 +33,31 @@ section.card {
     padding: 2em 4.5em 4.5em 4.5em;
     margin: 0 5em 0 5em;
     gap: 1em; 
+    section.profile-photo-wrapper {
+        justify-content: center;
+        align-content: center;
+        top: 5em;
+
+        img.img-border {
+            position: absolute;
+  
+            }
+
+        img.profile-photo {
+                position: absolute;
+                top: 1em;
+                left: 1em; 
+                
+            &:hover {
+                display: none;
+            } 
+
+
+            }
+        }
+}   
+
+
 section {   
     
     position: relative;
