@@ -1,4 +1,7 @@
+
+
 <section class="card">
+
     <h2>
         TOASTERBATH0758
     </h2>
@@ -41,6 +44,7 @@
          </h3> -->
         <!-- <p>welkom</p> -->
     </section>
+
 </section>
 
 
@@ -157,6 +161,15 @@ section {
         right:-7.5em;
     }
 }
+
+ /* {
+    position: absolute;
+    left: 0;
+} */
+
+
+</style>
+
 <script>
 
 	import { onMount } from 'svelte';
