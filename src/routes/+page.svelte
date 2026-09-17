@@ -42,6 +42,20 @@ section.card {
     padding: 2em 4.5em 4.5em 4.5em;
     margin: 0 5em 0 5em;
     gap: 1em; 
+
+    section.sideways-title {
+        display: flex;
+        position: absolute;
+
+        h3.top-left {
+            margin: 0;
+            writing-mode: vertical-rl;
+            text-orientation: upright;
+            background: black;
+            left: -1em;
+        }
+    }
+
     section.profile-photo-wrapper {
         justify-content: center;
         align-content: center;
